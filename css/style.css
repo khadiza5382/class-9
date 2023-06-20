@@ -122,8 +122,14 @@ p{
 
 #services { 
     background-color:#f0f0e8 ;
+    background-image: url(../img/service_img.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
     }
-#services h2{
+    #services .inner_container{
+        width:50%;
+    }
+#services .inner_container .services_info h2{
     font-size: 46px;
     font-weight:800;
     color:#02918c;
@@ -132,6 +138,7 @@ p{
 #services p{
             color:#7e8287;
             font-size: 16px;
+            line-height: 41px;
 }
 #services .icon h3{
     color:#7e8287;
